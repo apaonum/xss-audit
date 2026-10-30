@@ -1,0 +1,8 @@
+{
+  "name": "xss-audit",
+  "owner": { "name": "Apaonum" },
+  "description": "Static XSS audit skill for React/Next.js and other frontend codebases.",
+  "plugins": [
+    { "name": "xss-audit", "source": "./" }
+  ]
+}
