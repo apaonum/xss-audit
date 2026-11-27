@@ -1,6 +1,6 @@
 {
   "name": "xss-audit",
-  "owner": { "name": "Apaonum" },
+  "owner": { "name": "apaonum" },
   "description": "Static XSS audit skill for React/Next.js and other frontend codebases.",
   "plugins": [
     { "name": "xss-audit", "source": "./" }

@@ -16,7 +16,7 @@ The repo ships two pieces:
 Works with any agent (Claude Code, Cursor, Codex, Copilot, ...):
 
 ```bash
-npx skills add Apaonum/xss-audit
+npx skills add apaonum/xss-audit
 ```
 
 Requires [ripgrep](https://github.com/BurntSushi/ripgrep): `brew install ripgrep`.
@@ -105,13 +105,13 @@ The scan excludes `node_modules`, `dist`, `build`, `.next`, `out`, `coverage`, m
 ### Any agent (Claude Code, Cursor, Codex, Copilot, ...) via the skills CLI
 
 ```bash
-npx skills add Apaonum/xss-audit
+npx skills add apaonum/xss-audit
 ```
 
 ### Claude Code plugin
 
 ```
-/plugin marketplace add Apaonum/xss-audit
+/plugin marketplace add apaonum/xss-audit
 /plugin install xss-audit@xss-audit
 ```
 
@@ -120,7 +120,7 @@ To pick up new versions, run `/plugin marketplace update xss-audit`.
 ### Manual
 
 ```bash
-git clone https://github.com/Apaonum/xss-audit
+git clone https://github.com/apaonum/xss-audit
 ln -s "$PWD/xss-audit/skills/xss-audit" ~/.claude/skills/xss-audit
 ```
 

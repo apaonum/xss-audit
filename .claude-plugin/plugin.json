@@ -2,7 +2,7 @@
   "name": "xss-audit",
   "version": "1.0.0",
   "description": "Read-only static XSS audit of a frontend codebase across 14 sink/source layers, with every lead traced to a disposition and a report in xss-audit-report.md.",
-  "author": { "name": "Apaonum" },
-  "repository": "https://github.com/Apaonum/xss-audit",
+  "author": { "name": "apaonum" },
+  "repository": "https://github.com/apaonum/xss-audit",
   "license": "MIT"
 }
